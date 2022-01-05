@@ -109,7 +109,7 @@ public class FileInitialization
             default:
                 System.out.println("Error: Invalid character [" + letter + 
                                    "] in file");
-                System.exit(ERROR);  //Normally don't just exit but this is drastic!
+                System.exit(ERROR);
         }
         return(c);
     }
